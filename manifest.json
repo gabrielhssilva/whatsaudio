@@ -1,0 +1,15 @@
+{
+  "name": "InstaBot",
+  "version": "0.1",
+  "description": "Siga de volta pessoas que seguem você no Instagram.",
+  "content_scripts": [
+      {
+          "matches":[
+            "https://www.instagram.com/explore/people/suggested/"
+        ],
+          "css": ["style.css"],
+          "js": ["content.js"]
+      }
+  ],
+  "manifest_version": 2
+}
