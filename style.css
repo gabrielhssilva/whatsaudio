@@ -1,0 +1,6 @@
+.edited-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
