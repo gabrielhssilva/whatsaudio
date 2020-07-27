@@ -1,11 +1,11 @@
 {
-  "name": "InstaBot",
+  "name": "WhatsAudioBot",
   "version": "0.1",
-  "description": "Siga de volta pessoas que seguem você no Instagram.",
+  "description": "Aumente a velocidade dos seus áudio do WhatsApp.",
   "content_scripts": [
       {
           "matches":[
-            "https://www.instagram.com/explore/people/suggested/"
+            "https://web.whatsapp.com/"
         ],
           "css": ["style.css"],
           "js": ["content.js"]
