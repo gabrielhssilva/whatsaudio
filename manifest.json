@@ -1,5 +1,5 @@
 {
-  "name": "WhatsAudioBot",
+  "name": "WhatsAudio",
   "version": "0.1",
   "description": "Aumente a velocidade dos seus áudio do WhatsApp.",
   "content_scripts": [
